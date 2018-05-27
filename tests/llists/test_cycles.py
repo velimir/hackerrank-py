@@ -31,7 +31,7 @@ def test_simple_has_cycle_start_off_1():
     a = graph.Node(next_node = b)
     assert graph.has_cycle(a)
 
-def test_simple_has_cycle_start_off_1():
+def test_simple_has_cycle_start_off_2():
     e = graph.Node()
     d = graph.Node(next_node = e)
     c = graph.Node(next_node = d)
